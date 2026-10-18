@@ -1,0 +1,31 @@
+sentence,target,method,predicted_synset,definition,overlap_score,correct
+He deposited the money in the bank before noon.,bank,first_sense,bank.n.01,sloping land (especially the slope beside a body of water),0,False
+He deposited the money in the bank before noon.,bank,simple_lesk,depository_financial_institution.n.01,a financial institution that accepts deposits and channels the money into lending activities,2,True
+He deposited the money in the bank before noon.,bank,extended_lesk,depository_financial_institution.n.01,a financial institution that accepts deposits and channels the money into lending activities,2,True
+They sat on the bank of the river and watched the water.,bank,first_sense,bank.n.01,sloping land (especially the slope beside a body of water),0,True
+They sat on the bank of the river and watched the water.,bank,simple_lesk,bank.n.01,sloping land (especially the slope beside a body of water),2,True
+They sat on the bank of the river and watched the water.,bank,extended_lesk,bank.n.01,sloping land (especially the slope beside a body of water),2,True
+The bat flew out of the cave at night.,bat,first_sense,bat.n.01,nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate,0,True
+The bat flew out of the cave at night.,bat,simple_lesk,bat.n.01,nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate,0,True
+The bat flew out of the cave at night.,bat,extended_lesk,bat.n.01,nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate,0,True
+He swung the bat and hit the ball.,bat,first_sense,bat.n.01,nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate,0,False
+He swung the bat and hit the ball.,bat,simple_lesk,bat.n.02,(baseball) a turn trying to get a hit,1,False
+He swung the bat and hit the ball.,bat,extended_lesk,bat.n.05,a club used for hitting a ball in various games,2,True
+The plant needs sunlight and water to grow.,plant,first_sense,plant.n.01,buildings for carrying on industrial labor,0,False
+The plant needs sunlight and water to grow.,plant,simple_lesk,plant.n.01,buildings for carrying on industrial labor,0,False
+The plant needs sunlight and water to grow.,plant,extended_lesk,plant.n.02,(botany) a living organism lacking the power of locomotion,1,True
+The steel plant employs thousands of workers.,plant,first_sense,plant.n.01,buildings for carrying on industrial labor,0,True
+The steel plant employs thousands of workers.,plant,simple_lesk,plant.n.01,buildings for carrying on industrial labor,0,True
+The steel plant employs thousands of workers.,plant,extended_lesk,plant.n.01,buildings for carrying on industrial labor,0,True
+She read a book about ancient history.,book,first_sense,book.n.01,a written work or composition that has been published (printed on pages bound together),0,True
+She read a book about ancient history.,book,simple_lesk,book.n.01,a written work or composition that has been published (printed on pages bound together),0,True
+She read a book about ancient history.,book,extended_lesk,bible.n.01,the sacred writings of the Christian religions,1,False
+Please book a table for two at the restaurant.,book,first_sense,book.v.01,engage for a performance,0,False
+Please book a table for two at the restaurant.,book,simple_lesk,reserve.v.04,arrange for and reserve (something for someone else) in advance,2,True
+Please book a table for two at the restaurant.,book,extended_lesk,reserve.v.04,arrange for and reserve (something for someone else) in advance,2,True
+The mouse ran across the kitchen floor.,mouse,first_sense,mouse.n.01,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,0,True
+The mouse ran across the kitchen floor.,mouse,simple_lesk,mouse.n.01,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,0,True
+The mouse ran across the kitchen floor.,mouse,extended_lesk,mouse.n.01,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,0,True
+Click the left button on the mouse.,mouse,first_sense,mouse.n.01,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,0,False
+Click the left button on the mouse.,mouse,simple_lesk,mouse.n.01,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,0,False
+Click the left button on the mouse.,mouse,extended_lesk,mouse.n.04,a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad,1,True

@@ -1,0 +1,60 @@
+word,synset,pos,definition,examples,synonyms,antonyms,hypernyms,hyponyms,part_meronyms
+bank,bank.n.01,n,sloping land (especially the slope beside a body of water),they pulled the canoe up on the bank | he sat on the bank of the river and watched the currents,bank,,slope.n.01,"riverbank.n.01, waterside.n.01",
+bank,depository_financial_institution.n.01,n,a financial institution that accepts deposits and channels the money into lending activities,he cashed a check at the bank | that bank holds the mortgage on my home,"depository_financial_institution, bank, banking_concern, banking_company",,financial_institution.n.01,"lead_bank.n.01, state_bank.n.01, member_bank.n.01, home_loan_bank.n.01, federal_reserve_bank.n.01",
+bank,bank.n.03,n,a long ridge or pile,a huge bank of earth,bank,,ridge.n.01,"sandbank.n.01, bluff.n.01",
+bank,bank.n.04,n,an arrangement of similar objects in a row or in tiers,he operated a bank of switches,bank,,array.n.01,,
+bank,bank.n.05,n,a supply or stock held in reserve for future use (especially in emergencies),,bank,,reserve.n.02,"blood_bank.n.01, soil_bank.n.01, eye_bank.n.01, food_bank.n.01",
+bank,bank.n.06,n,the funds held by a gambling house or the dealer in some gambling games,he tried to break the bank at Monte Carlo,bank,,funds.n.01,,
+bank,bank.n.07,n,a slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force,,"bank, cant, camber",,slope.n.01,,
+bank,savings_bank.n.02,n,a container (usually with a slot in the top) for keeping money at home,the coin bank was empty,"savings_bank, coin_bank, money_box, bank",,container.n.01,piggy_bank.n.01,
+bank,bank.n.09,n,a building in which the business of banking transacted,the bank is on the corner of Nassau and Witherspoon,"bank, bank_building",,depository.n.01,,vault.n.02
+bank,bank.n.10,n,a flight maneuver; aircraft tips laterally about its longitudinal axis (especially in turning),the plane went into a steep bank,bank,,flight_maneuver.n.01,vertical_bank.n.01,
+bank,bank.v.01,v,tip laterally,the pilot had to bank the aircraft,bank,,tip.v.01,,
+bank,bank.v.02,v,enclose with a bank,bank roads,bank,,enclose.v.03,,
+bank,bank.v.03,v,do business with a bank or keep an account at a bank,Where do you bank in this town?,bank,,transact.v.01,,
+bank,bank.v.04,v,act as the banker in a game or in gambling,,bank,,act.v.04,,
+bank,bank.v.05,v,be in the banking business,,bank,,work.v.02,,
+bank,deposit.v.02,v,put into a bank account,She deposits her paycheck every month,"deposit, bank",withdraw,give.v.03,redeposit.v.01,
+bank,bank.v.07,v,cover with ashes so to control the rate of burning,bank a fire,bank,,cover.v.01,,
+bank,trust.v.01,v,have confidence or faith in,We can trust in God | Rely on your friends | bank on your good education | I swear by my grandmother's recipes,"trust, swear, rely, bank","mistrust, distrust",believe.v.01,"count.v.08, credit.v.04, lean.v.04",
+bat,bat.n.01,n,nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate,,"bat, chiropteran",,placental.n.01,"carnivorous_bat.n.01, fruit_bat.n.01",wing.n.01
+bat,bat.n.02,n,(baseball) a turn trying to get a hit,he was at bat when it happened | he got four hits in four at-bats,"bat, at-bat",,turn.n.03,,
+bat,squash_racket.n.01,n,a small racket with a long handle used for playing squash,,"squash_racket, squash_racquet, bat",,racket.n.04,,
+bat,cricket_bat.n.01,n,the club used in playing cricket,a cricket bat has a narrow handle and a broad flat end for hitting,"cricket_bat, bat",,cricket_equipment.n.01,,handle.n.01
+bat,bat.n.05,n,a club used for hitting a ball in various games,,bat,,club.n.03,"baseball_bat.n.01, paddle.n.01",
+bat,bat.v.01,v,"strike with, or as if with a baseball bat",bat the ball,bat,,hit.v.03,switch-hit.v.01,
+bat,bat.v.02,v,wink briefly,bat one's eyelids,"bat, flutter",,blink.v.01,,
+bat,bat.v.03,v,have a turn at bat,"Jones bats first, followed by Martinez",bat,,hit.v.03,,
+bat,bat.v.04,v,use a bat,Who's batting?,bat,,hit.v.03,,
+bat,cream.v.02,v,beat thoroughly and conclusively in a competition or fight,We licked the other team on Sunday!,"cream, bat, clobber, drub, thrash, lick",,beat.v.01,,
+plant,plant.n.01,n,buildings for carrying on industrial labor,they built a large plant to manufacture automobiles,"plant, works, industrial_plant",,building_complex.n.01,"saltworks.n.01, bottling_plant.n.01, mint.n.06, factory.n.01, sewage_disposal_plant.n.01",
+plant,plant.n.02,n,(botany) a living organism lacking the power of locomotion,,"plant, flora, plant_life",,organism.n.01,"wilding.n.01, embryo.n.01, pot_plant.n.01, biennial.n.01, hygrophyte.n.01","hood.n.02, plant_part.n.01"
+plant,plant.n.03,n,an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience,,plant,,actor.n.01,,
+plant,plant.n.04,n,something planted secretly for discovery by another,the police used a plant to trick the thieves | he claimed that the evidence against him was a plant,plant,,contrivance.n.03,,
+plant,plant.v.01,v,"put or set (seeds, seedlings, or plants) into the ground",Let's plant flowers in the garden,"plant, set",,put.v.01,"replant.v.01, bed.v.02, puddle.v.03, tree.v.02, checkrow.v.01",
+plant,implant.v.01,v,fix or set securely or deeply,He planted a knee in the back of his opponent | The dentist implanted a tooth in the gum,"implant, engraft, embed, imbed, plant",,insert.v.01,"bury.v.05, nest.v.02, pot.v.01",
+plant,establish.v.02,v,set up or lay the groundwork for,establish a new department,"establish, found, plant, constitute, institute",,initiate.v.02,"fix.v.06, appoint.v.01",
+plant,plant.v.04,v,place into a river,plant fish,plant,,stock.v.06,,
+plant,plant.v.05,v,place something or someone in a certain position in order to secretly observe or deceive,Plant a spy in Moscow | plant bugs in the dissident's apartment,plant,,put.v.01,,
+plant,plant.v.06,v,put firmly in the mind,Plant a thought in the students' minds,"plant, implant",,communicate.v.01,,
+book,book.n.01,n,a written work or composition that has been published (printed on pages bound together),I am reading a good book on economics,book,,publication.n.01,"copybook.n.01, songbook.n.01, textbook.n.01, authority.n.07, storybook.n.01","running_head.n.01, signature.n.05"
+book,book.n.02,n,physical objects consisting of a number of pages bound together,he used a large book as a doorstop,"book, volume",,product.n.02,"hardback.n.01, order_book.n.02, journal.n.04, novel.n.02, paperback_book.n.01","binding.n.05, fore_edge.n.01, spine.n.04"
+book,record.n.05,n,a compilation of the known facts regarding something or someone,"Al Smith used to say, `Let's look at the record' | his name is in all the record books","record, record_book, book",,fact.n.02,"won-lost_record.n.01, logbook.n.01, card.n.08",
+book,script.n.01,n,a written version of a play or other dramatic composition; used in preparing for a performance,,"script, book, playscript",,dramatic_composition.n.01,"screenplay.n.01, shooting_script.n.01, libretto.n.01, promptbook.n.01, dialogue.n.02",
+book,ledger.n.01,n,a record in which commercial accounts are recorded,they got a subpoena to examine our books,"ledger, leger, account_book, book_of_account, book",,record.n.07,"cost_ledger.n.01, daybook.n.01, subsidiary_ledger.n.01, general_ledger.n.01",
+book,book.n.06,n,a collection of playing cards satisfying the rules of a card game,,book,,collection.n.01,,
+book,book.n.07,n,a collection of rules or prescribed standards on the basis of which decisions are made,they run things by the book around here,"book, rule_book",,collection.n.01,,"rule.n.08, rule.n.03"
+book,koran.n.01,n,the sacred writings of Islam revealed by God to the prophet Muhammad during his life at Mecca and Medina,,"Koran, Quran, al-Qur'an, Book",,,,sura.n.01
+book,bible.n.01,n,the sacred writings of the Christian religions,he went to carry the Word to the heathen,"Bible, Christian_Bible, Book, Good_Book, Holy_Scripture, Holy_Writ, Scripture, Word_of_God, Word",,sacred_text.n.01,family_bible.n.01,"text.n.02, testament.n.04, old_testament.n.01, new_testament.n.01"
+book,book.n.10,n,a major division of a long written composition,the book of Isaiah,book,,section.n.01,epistle.n.02,
+book,book.n.11,n,a number of sheets (ticket or stamps etc.) bound together on one edge,he bought a book of stamps,book,,product.n.02,,
+book,book.v.01,v,engage for a performance,Her agent had booked her for several concerts in Tokyo,book,,schedule.v.01,,
+book,reserve.v.04,v,arrange for and reserve (something for someone else) in advance,reserve me a seat on a flight | The agent booked tickets to the show for the whole family | please hold a table at Maxim's,"reserve, hold, book",,request.v.01,keep_open.v.01,
+book,book.v.03,v,record a charge in a police register,The policeman booked her when she tried to solicit a man,book,,record.v.01,ticket.v.01,
+book,book.v.04,v,register in a hotel booker,,book,,register.v.01,,
+mouse,mouse.n.01,n,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,,mouse,,rodent.n.01,"wood_mouse.n.01, field_mouse.n.02, nude_mouse.n.01, house_mouse.n.01, harvest_mouse.n.02",
+mouse,shiner.n.01,n,a swollen bruise caused by a blow to the eye,,"shiner, black_eye, mouse",,bruise.n.01,,
+mouse,mouse.n.03,n,person who is quiet or timid,,mouse,,person.n.01,,
+mouse,mouse.n.04,n,a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad,a mouse takes much more room than a trackball,"mouse, computer_mouse",,electronic_device.n.01,,mouse_button.n.01
+mouse,sneak.v.01,v,to go stealthily or furtively,..stead of sneaking around spying on the neighbor's house,"sneak, mouse, creep, pussyfoot",,walk.v.01,,
+mouse,mouse.v.02,v,manipulate the mouse of a computer,,mouse,,manipulate.v.02,,

@@ -1,0 +1,11 @@
+sentence,word,pos,predicted_synset,definition,overlap_score
+The farmer sat on the bank of the river.,farmer,n,farmer.n.01,a person who operates a farm,0
+The farmer sat on the bank of the river.,sat,v,sit.v.01,be seated,1
+The farmer sat on the bank of the river.,bank,n,bank.n.01,sloping land (especially the slope beside a body of water),1
+The farmer sat on the bank of the river.,river,n,river.n.01,a large natural stream of water (larger than a creek),0
+He opened a savings account at the bank to deposit his money.,opened,v,open.v.01,cause to open or to become open,1
+He opened a savings account at the bank to deposit his money.,savings,n,economy.n.04,an act of economizing; reduction in cost,1
+He opened a savings account at the bank to deposit his money.,account,n,report.n.03,a short account of the news,1
+He opened a savings account at the bank to deposit his money.,bank,n,depository_financial_institution.n.01,a financial institution that accepts deposits and channels the money into lending activities,3
+He opened a savings account at the bank to deposit his money.,deposit,v,deposit.v.02,put into a bank account,3
+He opened a savings account at the bank to deposit his money.,money,n,money.n.01,the most common medium of exchange; functions as legal tender,2

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Word Sense Disambiguation</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header class="top">
+    <h1>Word Sense Disambiguation</h1>
+    <p>WordNet sense inventory, lexical relations, Lesk and supervised WSD</p>
+</header>
+
+<main>
+
+    <!-- 1. Sense Inventory and Lexical Relations -->
+    <section class="card">
+        <h2>1. Sense Inventory and Lexical Relations</h2>
+
+        <p class="muted">
+            Look up every WordNet sense of a word with its synonyms,
+            antonyms, hypernyms, hyponyms and meronyms.
+        </p>
+
+        <div class="row">
+            <input
+                type="text"
+                id="word-input"
+                value="bank"
+                placeholder="Enter a word"
+                aria-label="Word to search"
+            >
+
+            <button id="senses-btn" type="button">
+                Get senses
+            </button>
+        </div>
+
+        <div id="senses-output" aria-live="polite"></div>
+    </section>
+
+
+    <!-- 2. WSD on Sample Text -->
+    <section class="card">
+        <h2>2. WSD on Sample Text</h2>
+
+        <p class="muted">
+            Predicts a WordNet sense for every content word in the text.
+        </p>
+
+        <textarea
+            id="sentence-input"
+            rows="4"
+            placeholder="Enter sample text"
+        >The farmer sat on the bank of the river. He opened a savings account at the bank to deposit his money.</textarea>
+
+        <div class="row">
+            <select id="method-select" aria-label="Lesk method">
+                <option value="extended">Extended Lesk</option>
+                <option value="simple">Simple Lesk</option>
+            </select>
+
+            <button id="wsd-btn" type="button">
+                Disambiguate
+            </button>
+        </div>
+
+        <div id="wsd-output" aria-live="polite"></div>
+    </section>
+
+
+    <!-- 3. Supervised WSD -->
+    <section class="card">
+        <h2>3. Supervised WSD (scikit-learn)</h2>
+
+        <p class="muted">
+            TF-IDF and Logistic Regression trained on labelled example sentences.
+        </p>
+
+        <div class="row">
+            <select id="sup-word" aria-label="Target word">
+                <option value="bank">bank</option>
+                <option value="bat" selected>bat</option>
+                <option value="plant">plant</option>
+            </select>
+
+            <input
+                type="text"
+                id="sup-sentence"
+                value="The bat flew out of the cave at dusk."
+                placeholder="Enter a sentence containing the target word"
+                aria-label="Supervised WSD sentence"
+            >
+
+            <button id="sup-btn" type="button">
+                Predict sense
+            </button>
+        </div>
+
+        <div id="sup-output" aria-live="polite"></div>
+    </section>
+
+
+    <!-- 4. Evaluation -->
+    <section class="card">
+        <h2>4. Evaluation and Analysis</h2>
+
+        <p class="muted">
+            Accuracy of each method on the sample sentences.
+        </p>
+
+        <button id="eval-btn" type="button">
+            Run evaluation
+        </button>
+
+        <div id="eval-output" aria-live="polite"></div>
+    </section>
+
+</main>
+
+<footer>
+    Word Sense Disambiguation | Natural Language Processing | Lab 05
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

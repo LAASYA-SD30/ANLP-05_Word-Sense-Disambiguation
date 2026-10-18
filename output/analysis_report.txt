@@ -1,0 +1,32 @@
+WORD SENSE DISAMBIGUATION - ANALYSIS REPORT
+=============================================
+
+1. Objective
+Identify the senses of ambiguous words using WordNet and apply
+Lesk-style algorithms to resolve them in context.
+
+2. Sense inventory
+Target words: bank, bat, plant, book, mouse
+Total senses: 59 (average 11.8 per word).
+See output/sense_inventory.csv for glosses, synonyms, hypernyms,
+hyponyms, antonyms and meronyms.
+
+3. Methods compared
+- First-sense baseline: most frequent WordNet sense.
+- Simple Lesk: overlap between sentence context and sense gloss + examples.
+- Extended Lesk: also uses hypernym, hyponym, meronym glosses and synonyms.
+
+4. Results (accuracy on sample sentences)
+method
+extended_lesk    90.0
+first_sense      50.0
+simple_lesk      70.0
+
+5. Error analysis (Extended Lesk misclassified):
+- 'She read a book about ancient history.' -> bible.n.01: the sacred writings of the Christian religions
+
+6. Observations
+- Gloss overlap fails when the sentence shares few words with any gloss.
+- Extending signatures with related synsets raises overlap coverage.
+- Short sentences give little context, so ties fall back to the first sense.
+- Future work: supervised WSD with scikit-learn using context features.
